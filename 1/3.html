@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2 - Coding for Beginners</title>
+  <style>
+  </style>
+</head>
+<body>
+<input>
+<button>Add word</button>
+<ol>
+  <li></li>
+</ol>
+<script type=module>
+import {LexiconView} from './LexiconView.js'
+
+let button = document.querySelector('button')
+button.addEventListener('click', clickEvent => {
+  let form = document.querySelector('input').value
+  let li = document.createElement('li')
+  li.textContent = form
+  document.querySelector('ol').append(li)
+})
+
+</script>
+</body>
+</html> 

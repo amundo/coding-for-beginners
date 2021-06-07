@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans+Condensed:ital,wght@0,400;0,900;1,900&family=Fira+Sans:ital,wght@0,400;0,900;1,900&display=swap');
+
+
+:root {
+  --large-font-size: 4rem;
+  --normal-font-size: 2rem;
+  --code-font:  'Fira Code', monospace;
+  --serif-font: 'Fira Sans', sans-serif;
+  --condensed-font: 'Fira Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: var(--large-font-size);
+}
+
+h1, h2, h3 {
+  font-family: var(--serif-font);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+blockquote {
+  width: 50%;
+}
+
+p, blockquote {
+  font-size: var(--normal-font-size);
+}
